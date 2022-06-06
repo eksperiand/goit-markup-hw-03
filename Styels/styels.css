@@ -49,7 +49,6 @@ img {
 
 .heder-list {
     display: flex;
-    margin-left: 93px;
 }
 
 .heder-logo {
@@ -183,6 +182,7 @@ img {
 }
 
 .chip-name {
+    text-align: center;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.33;
@@ -193,6 +193,7 @@ img {
 }
 
 .chip-par {
+    text-align: center;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
