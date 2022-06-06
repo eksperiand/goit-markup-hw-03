@@ -1,5 +1,7 @@
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .link {
@@ -45,14 +47,13 @@ img {
 
 .heder-list {
     display: flex;
-    margin-left: 453px;
+    margin-left: 93px;
 
 
 }
 
 .heder-logo {
     left: 215px;
-    letter-spacing: 0.78px;
     position: absolute;
     top: 24px;
     font-family: 'Raleway';
@@ -66,6 +67,7 @@ img {
 
 .heder-item:not(:last-child) {
     margin-right: 50px;
+    padding: 32px 0px;
 }
 
 .studio {
