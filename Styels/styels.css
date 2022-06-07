@@ -38,26 +38,37 @@ img {
 }
 
 /*-----------верхняя линяя-------------*/
-
 .header {
-    border-bottom: 1px solid #ECECEC;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: #ECECEC;
 }
 
 .header .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-.heder-list {
-    display: flex;
+/* -----Линки хедера----- */
+.header-lists .link,
+.header-contact-lists .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
-.heder-logo {
+/* -----Блок навигации----- */
+.main-nav {
     display: flex;
-    left: 215px;
-    position: absolute;
-    top: 24px;
+    align-items: center;
+}
+
+/* -----Логотип в хедере----- */
+.logo {
+    margin-right: 93px;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -65,67 +76,74 @@ img {
     color: #2196F3;
 }
 
-.heder-item:not(:last-child) {
+.logo-web {
+    color: var(--heder-color);
 
+}
+
+.logo:hover,
+.logo-web:hover {
+    color: #2196F3;
+}
+
+.logo:focus,
+.logo-web:focus {
+    color: #2196F3;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-item {
     margin-right: 50px;
-    padding: 32px 0px;
 }
 
-.studio {
-
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #000000;
+.header-item:last-child {
+    margin-right: 0;
 }
 
-.heder-link {
-
+.header-lists,
+.header-item-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.33;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--heder-color);
 }
 
-.heder-link:hover {
+.current {
+    color: var(--heder-color);
+}
+
+.header-item-link:hover,
+.header-item-link:focus {
     color: #2196F3;
 }
 
-.heder-link:focus {
-    color: #2196F3;
-}
-
-.heder-contacs {
+/* -----Контакты хедера----- */
+.nav-contact {
     display: flex;
-    align-items: center;
     margin-left: auto;
+    align-items: center;
 }
 
-.heder-contacs-tel,
-.heder-contacs-mail {
+.header-contact-item:not(:first-child) {
+    margin-left: 50px;
+}
+
+.header-contact-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.33;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-
 }
 
-.heder-contacs-tel:hover,
-.heder-contacs-mail:hover {
+.header-contact-link:hover,
+.header-contact-link:focus {
     color: #2196F3;
-}
-
-.heder-contacs-tel:focus,
-.heder-contacs-mail:focus {
-    color: #2196F3
-}
-
-.heder-contact-item {
-
-    margin-right: 50px;
 }
 
 /*----------шапка--------------*/
