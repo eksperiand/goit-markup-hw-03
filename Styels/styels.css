@@ -377,10 +377,8 @@ ul {
 }
 
 
-.footer-tel {
-    cursor: default;
-}
-
+.footer-tel,
+.footer-addres-name,
 .footer-mail {
     cursor: default;
 }
