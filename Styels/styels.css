@@ -96,11 +96,12 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: #000;
 }
 
 .logo-web {
-    color: var(--heder-color);
+    color: #2196F3;
+    ;
 
 }
 
@@ -336,10 +337,7 @@ ul {
 }
 
 .teams .teams-item {
-    border-width: 0px 2px 2px 2px;
-    border-style: solid;
     border-radius: 5px;
-    border-color: #ECECEC;
     background-color: #fff;
 }
 
@@ -365,6 +363,7 @@ ul {
 }
 
 .footer-link {
+    display: inline-block;
     cursor: default;
     font-family: 'Raleway';
     font-style: normal;
@@ -377,9 +376,6 @@ ul {
 
 }
 
-.footer-addres-name {
-    cursor: default;
-}
 
 .footer-tel {
     cursor: default;
@@ -389,12 +385,7 @@ ul {
     cursor: default;
 }
 
-.footer-addres {
-    margin-top: 30px;
-
-}
-
-.footer-list:not(:last-child) {
+.listitem:not(:last-child) {
     margin-bottom: 10px;
 }
 
@@ -415,11 +406,11 @@ ul {
 
 }
 
-/*.footer-mail:hover,
 .footer-tel:hover,
+.footer-mail:hover,
 .footer-addres-name:hover {
     color: #2196F3;
-}*/
+}
 
 .footer-mail:focus,
 .footer-tel:focus,
@@ -486,17 +477,9 @@ ul {
 }
 
 .project-type {
-    margin-left: 24px;
-    margin-right: 24px;
-
-
+    margin-bottom: 4px;
 }
 
-.direction {
-    margin-left: 24px;
-    margin-right: 24px;
-
-}
 
 .visually {
     position: absolute;
@@ -533,9 +516,7 @@ ul {
 }
 
 .about-project {
-    width: 370px;
-    height: 110px;
-
+    padding: 20px 24px;
     border-width: 0px 2px 2px 2px;
     border-style: solid;
     border-color: #ECECEC;
